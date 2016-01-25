@@ -1,0 +1,20 @@
+module program begin
+	void main() begin
+		a();
+		output 4;
+	end
+	
+	void a() begin
+		output 1;
+		b();
+	end
+	
+	void b() begin
+		output 2;
+		c();
+	end
+	
+	void c() begin
+		output 3;
+	end
+end

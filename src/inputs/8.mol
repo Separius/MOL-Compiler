@@ -1,0 +1,9 @@
+module program begin
+	void main() begin
+	
+		int a;
+		input a;
+		output a;
+		
+	end
+end

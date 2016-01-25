@@ -1,0 +1,14 @@
+module program begin
+	void main() begin
+		int a[10];
+		
+		int b;
+		for (b=0; b < 10 ; b=b+1 ) begin
+			a[b] = b;
+		end
+		
+		for (b=0;b < 10 ; b=b+1 ) begin
+			output a[b];
+		end
+	end
+end

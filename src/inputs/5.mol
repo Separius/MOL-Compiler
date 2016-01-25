@@ -1,0 +1,19 @@
+module program begin
+	void main() begin
+		int a;
+		int b;
+		int c;
+		int d [5];
+		
+		a = 10;
+		b = 1 ;
+		d[0] = 1;
+		d[1] = 2;
+		d[2] = 3;
+		
+		if( a < b or d[0] > d[1] )
+			output 12;
+		else
+			output 9;
+	end
+end

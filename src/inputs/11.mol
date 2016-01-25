@@ -1,0 +1,12 @@
+module program begin
+	void main() begin
+		int a;
+		
+		begin
+			a = 12;
+		end
+		
+		output a;
+		
+	end
+end

@@ -1,0 +1,19 @@
+module program begin
+	void main() begin
+
+		int a ;
+		input a;
+		
+		int b;
+		
+		for( b = 1 ; a > 10 ; b=b+1 ) begin
+			int temp;
+			temp= a/10;
+			temp = a +-temp*10;
+			output temp;
+			a = a/10;
+		end
+		output a;
+		
+	end
+end

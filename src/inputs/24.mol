@@ -1,0 +1,11 @@
+module program begin
+	void main() begin
+	
+		float f;
+		
+		f = 11.16;
+		
+		output f + 3.14;
+		
+	end
+end

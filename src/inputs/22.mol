@@ -1,0 +1,14 @@
+module program begin
+	void main() begin
+		rec(16);
+	end
+	
+	void rec(int a) begin
+		if( a < 0 )
+			begin
+				return;
+			end
+		output a;
+		rec( a+-1 );
+	end
+end

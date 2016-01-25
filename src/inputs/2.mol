@@ -1,0 +1,16 @@
+module program begin
+	void main() begin
+		int a;
+		
+		if( true ) begin
+			a = 16;
+		end
+		
+		if( a == 16 ) begin
+			a = 11;
+		end
+		
+		output a;
+		
+	end
+end

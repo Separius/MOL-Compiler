@@ -1,0 +1,12 @@
+module program begin
+	void main() begin
+	
+		bool a;
+		a = 3 > 2+-4+1;
+		if(a)
+			output 1;
+		else
+			output 0;
+		
+	end
+end

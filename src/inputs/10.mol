@@ -1,0 +1,21 @@
+module program begin
+	void main() begin
+		
+		bool a;
+		bool b;
+		bool c;
+		
+		a = true;
+		b = false;
+		c = true;
+		
+		if( a and b and c ) begin
+			output 16;
+		end
+		
+		if( a or b or c ) begin
+			output 11;
+		end
+		
+	end
+end

@@ -1,0 +1,28 @@
+%%for sepehr
+module program begin
+	void main() begin
+		A a ;
+		input a.b;
+		C b;
+		a = b.f(a);
+		output a.b;
+	end
+end
+module A includes B
+begin
+	int a;
+end
+module B
+begin
+	float b;
+end
+module C
+begin
+	A c;
+	A f(A in)
+	begin
+		c = in;
+		output c.b;
+		return c;
+	end
+end

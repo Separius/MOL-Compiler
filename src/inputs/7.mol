@@ -1,0 +1,11 @@
+module program begin
+	void main() begin
+	
+		output 1;
+		output 2;
+		output 3;
+		output 4;
+		output 5;
+		
+	end
+end

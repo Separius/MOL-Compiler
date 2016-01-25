@@ -1,0 +1,13 @@
+module program begin
+	void main() begin
+		output fibo(5);
+	end
+	
+	int fibo ( int a ) begin
+		if( a < 1)
+		begin
+			return 1;
+		end
+		return (fibo( a+-1 ) + fibo( a+-2 ));
+	end
+end

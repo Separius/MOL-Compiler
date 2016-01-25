@@ -1,0 +1,11 @@
+module program begin
+	void main() begin
+		
+		float a ;
+		int b;
+		input b ;
+		a = b;
+		output a;
+		
+	end
+end

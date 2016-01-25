@@ -1,0 +1,9 @@
+module program begin
+	void main() begin
+	int b;
+	int * a;
+	a = &b;
+	b = 2;
+	output *a;
+	end
+end

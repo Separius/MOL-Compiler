@@ -1,0 +1,16 @@
+module program begin
+	void main() begin
+	
+		float f;
+		
+		f = 11.16;
+		
+		float temp;
+		temp= f + 3.14;
+		
+		
+		if( temp == 14.3)
+			output temp;
+		
+	end
+end

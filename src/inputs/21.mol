@@ -1,0 +1,10 @@
+module program begin
+	int powerOfTwo( int a ) begin
+		return a*a;
+	end
+	void main() begin
+		bool result;
+		result = (this.powerOfTwo(3) + this.powerOfTwo( 4 )) == this.powerOfTwo(5);
+		output result;
+	end
+end

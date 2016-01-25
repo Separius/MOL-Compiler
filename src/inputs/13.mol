@@ -1,0 +1,13 @@
+module program begin
+	void main() begin
+		
+		int a;
+		for( a = 1 ; true ; a=a+1 ) begin
+			if( a == 10 ) begin
+				output 10;
+				return;
+			end
+		end
+		
+	end
+end

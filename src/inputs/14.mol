@@ -1,0 +1,22 @@
+module program begin
+	void main() begin
+		int error;
+		error = 0;
+		int a ;
+		int temp;
+		for( a = 0 ; a < 10 ; a=a+1) begin
+			temp = 1 + 2 + 3 *4 + ( 6/5 );
+			if( temp =! 16 ) begin
+				error =1;
+			end
+			
+			if( error == 1 ) begin
+				output 1;
+				return;
+			end
+		end
+		
+		output 0;
+		
+	end
+end
